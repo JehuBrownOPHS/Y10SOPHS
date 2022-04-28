@@ -1,0 +1,12 @@
+people = []
+people.append(input("Enter the persons name that you want to invite"))
+people.append(input("Enter the persons name that you want to invite"))
+people.append(input("Enter the persons name that you want to invite"))
+ask = str(input("Would you like to invite more people yes or no"))
+while ask == "yes":
+    invitation = str(input("Enter the name of the person you want to invite"))
+    if invitation != "no":
+        people.append(invite)
+    else:
+        ask = "no"
+print(len(people))
